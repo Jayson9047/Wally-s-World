@@ -80,7 +80,7 @@ namespace JBWally
             String PhoneNo = PhoneNumber.Text.Trim();
             bool check = true;
             bool checkCustomer = true;
-
+            //check if customer already exists
             checkCustomer = Database.CheckCustomer(firstName, lastName);
             if (checkCustomer == true)
             {
@@ -88,6 +88,7 @@ namespace JBWally
             }
             else                            //check validity
             {
+
                 if (CheckNumber(PhoneNo) == false)  
                 {
                     PhoneError.Visibility = Visibility.Visible;

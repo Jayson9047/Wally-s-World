@@ -300,5 +300,10 @@ namespace JBWally
         {
             orderDetails.IsEnabled = false;   //disable orderdetails button when branch selection is changed
         }
+
+        private void Enroll_Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("Enroll.xaml", UriKind.RelativeOrAbsolute));
+        }
     }
 }

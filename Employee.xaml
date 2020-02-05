@@ -16,7 +16,7 @@
         <Button Content="Inventory" HorizontalAlignment="Left" Margin="499,170,0,0" VerticalAlignment="Top" Width="115" Height="26" Click="Inventory_Click"/>
         <TextBlock x:Name="AllInfo" FontWeight="Bold" HorizontalAlignment="Left" Margin="27,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="58" Width="434"/>
         <TextBlock HorizontalAlignment="Left" FontWeight="Bold" Margin="499,102,0,0" TextWrapping="Wrap" Text="Select Branch:" VerticalAlignment="Top" Width="161" Height="25"/>
-        <Button Content="Enroll A Customer" HorizontalAlignment="Left" Margin="499,398,0,0" VerticalAlignment="Top" Width="115" Height="28" Click="Button_Click"/>
+        <Button Content="Enroll A Customer" HorizontalAlignment="Left" Margin="499,398,0,0" VerticalAlignment="Top" Width="115" Height="28" Click="Enroll_Button_Click"/>
         <TextBox x:Name="search" HorizontalAlignment="Left" Height="23" Margin="39,486,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181"/>
         <TextBlock HorizontalAlignment="Left" FontWeight="Bold" Margin="39,461,0,0" TextWrapping="Wrap" Text="Search Customer:" VerticalAlignment="Top" Width="161" Height="25"/>
         <Button Content="Search" HorizontalAlignment="Left" Margin="262,486,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="SearchButton_Click_1"/>
